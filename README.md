@@ -90,17 +90,8 @@ Image.fromarray(predictions * 255).convert("L").save(output_path)
 - **Validation Loss**: Evaluated after each epoch.
 - Example segmentation mask output:
 
-![Example Prediction](predicted_mask6_visualization.png)
+![Example Prediction](./Python/predicted_mask6_visualization.png)
 
-## Repository Structure
-```
-.
-├── train.py              # Training script
-├── requirements.txt      # Required Python libraries
-├── checkpoints_segformer5/ # Model checkpoints
-├── README.md             # Project documentation
-└── inference.py          # Inference script
-```
 
 ## Future Work
 - Fine-tune the model on larger and more diverse datasets.
