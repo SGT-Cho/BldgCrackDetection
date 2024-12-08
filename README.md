@@ -89,6 +89,7 @@ Image.fromarray(predictions * 255).convert("L").save(output_path)
 - **Training Loss**: Tracked across 32 epochs.
 - **Validation Loss**: Evaluated after each epoch.
 - Example segmentation mask output:
+- 
 ![Original Image](./Python/testimage4.jpg)
 ![Example Prediction](./Python/predicted_mask6_visualization.png)
 
